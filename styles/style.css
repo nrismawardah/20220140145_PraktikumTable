@@ -1,0 +1,61 @@
+/*Mengatur jenis font, margin, dan tampilan background web*/
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background: url('background.jpeg');
+    background-size: cover;
+}
+
+/*Mengatur posisi judul*/
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/*Megatur lebar, posisi, warna latar belakang, dan bayangan tabel */
+table {
+    width: 80%;
+    margin-top: -3px;
+    position: absolute;
+    margin-left: 130px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
+}
+
+/*Mengatur padding dan garis bawah untuk sel header dan data*/
+th, td {
+    padding: 10px;
+    border-bottom: 1px solid #000000;
+    text-align: center;
+}
+
+/*Mengatur warna latar belakang untuk sel header*/
+th {
+    background-color: #ffffff;
+}
+
+/*Mengatur warna latar belakang saat dihover*/
+tr:hover {
+    background-color: #d8e1f8;
+}
+
+/*Mengatur ukuran maksimum gambar dan posisinya*/
+img {
+    max-width: 200px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/*Mengatur garis antar kolom*/
+td {
+    border-right: 1px solid #000000;
+}
+
+/*Mengatur lebar maksimum dan pemecahan kata pada deskripsi film*/
+td:nth-child(3) {
+    max-width: 500px;
+    white-space: normal;
+    word-wrap: break-word;
+}
